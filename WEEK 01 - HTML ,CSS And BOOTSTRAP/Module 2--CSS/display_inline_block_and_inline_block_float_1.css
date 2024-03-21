@@ -1,0 +1,50 @@
+.frstdv {
+    width: 200px;
+    height: 150px;
+    background-color: red;
+    float: left;
+    /* display :inline; */
+
+}
+
+.scnddv {
+    width: 200px;
+    height: 150px;
+    background-color: blue;
+    float: left;
+    /* display: inline; */
+
+}
+
+
+.box {
+    width: 200px;
+    height: 150px;
+    border: 9px solid blue;
+    /* margin: 7px; */ 
+    font-size: 30;
+    text-align: center;
+}
+
+/* flex use korar jonno div gulu keh aktah container bah parent div under a anteh hoi ,anar por jabotio operation korah hoie takhe, */
+.container {
+    /* flex use koreh block level element jemon <div></div> ,arkm onkgulu div keh pasapashi nie asha jai  */
+    display: flex;
+    /* nicher keyword gulu tkhn e use korteh parbho ,jkhn amrah display flex use korbho  */
+    /* justify content use koreh container bah parent div er moddeh jeh child div gule takhe seh gulu keh vibinnohh vabhe sajano jai jemon : */
+    /* justify content :center dileh div gulu window er center a chole ashe */
+    justify-content: center;
+    /* justify-content: space-between ; dileh child div gulu er moddeh space toirihi ,justify content die arkm aro onk doroner kaj korah hoi */
+    /* justify-content: space-between ; */
+    /* child div gulur moddeh cailei custom gap dithe parih gap: keyword use koreh */
+    gap: 30px;
+    /* flex-direction: use koreh caileh div gulu keh reverse korteh parih,div gulu jehetoh row akareh ache sehetoh row reverse korlei hobhe */
+   flex-direction: row-reverse;
+   /* child div gulu keh row & column borabor anar jonno aghe container bah parent div er height:100vh; korteh hobhe , height 100vh manhe puru window jureh container tai takbhe ,trpr    */
+   height:100vh;
+   /* align-items: center; korlei child div gulu row & column borabhor majkhane choleh asbhe */
+   align-items: center;
+   /* onk gulu div use korleh ,div gulu khe jkhn amrah pasapashi nie ashi tkhn kintu childdiv gulur height/width komeh jai ,jodhi window screen choto hoi taholeh height/width choto hoiie jai ,boro screen a hoitoh kichu tah thik dekhai,toh choto boro shob screen a jenoh height/width thik takhe seh jonno flex-wrap:wrap use korah hoi ,ai keyword use korleh hoi kih screen jodhi choto hothe takhe tkhn tkhn div gulu height/width thik rekhe nicher line a chole jai,for example laptop screen & mobile phone screen*/
+   flex-wrap: wrap;
+
+}

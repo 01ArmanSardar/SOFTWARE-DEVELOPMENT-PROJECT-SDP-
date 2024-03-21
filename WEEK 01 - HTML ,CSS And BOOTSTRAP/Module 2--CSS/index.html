@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- nicher tag tah teh internal CSS  korah hoiceh  -->
+    <style>
+        /* class name dhore oi line class jeh line tag takhe select korche seh tag er color chnge font size chnge soho ,jabitio aro onk kaj korteh parbho,orthat CSS korteh parbho */
+        .title {
+            color: blue;
+            font-size: 59px;
+        }
+
+        .description {
+            color: darkviolet;
+            line-height: 1.9em;
+        }
+
+        /* nicher line a selector hisebhe id use korah hoice ,unique kono line er kkaj korteh id use korah hoii */
+        #test {
+            color: cyan;
+        }
+
+        /* kono aktah tag er css korteh holeh oi tag er name likeh {css er kaj korteh hobhe} */
+        p {
+            color: darkkhaki;
+        }
+    </style>
+    <!--  onno aktah file a css likhe then a html er sateh link korteh nicher line er moto krteh hobhe,href="akhne oi css file er name likteh hobhe" -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- below 1 line provide Inline CSS ,here we change hello world color and size  -->
+    <h1 style="color: red;font-size:90px; ">hello world</h1>
+    <!-- niche line tah internal css er aktah example,akhne amrah h2 tag er moddeh jeh class likchi,ai class tah akpokar selector hisebhe kaj korceh,manhe ai class tah die amrah ai line tag er element gulu select korlam then ,style tag a jabho -->
+    <h2 class="title">hello bangladesh</h2>
+    <p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci eaque suscipit porro et
+        quisquam repudiandae, sit facilis architecto molestias eius. Tempora possimus iusto numquam dolore cum sit
+        consectetur accusamus voluptate.</p>
+    <h3 id="test">ami unique</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime voluptate architecto incidunt.</p>
+</body>
+
+</html>

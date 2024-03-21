@@ -1,0 +1,22 @@
+/* atah holo default class title, ai title er style tah shob device er jonno e default ,amrah poreh "media only screen and (min-width:jeh kono px) and (max-width:jeh kono px)" koreh aktah max-min width set koreh dibho   */
+.title {
+    color: darkslateblue;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+/* nicher line tah hocceh responsive css er normal aktah udarhon, */
+@media only screen and (max-width: 480px) {
+    .title {
+        color: blue;
+        font-style: italic;
+    }
+}
+/* amrah ai jeh akhne (min-width:481px) and (max-width:768px) dicchi ,manhe 481px tekhe 768px projntoh jeh device gulu aceh seh gulah teh amkeh nicher title er moddeh jhe vabhe aceh seh vabhe dekabhe */
+@media only screen and (min-width:481px) and (max-width:768px) {
+    .title {
+        /*ai title class er jonno amra cailei aro change anteh parih,jei change a anbho setai (min-width:481px) and (max-width:768px) er jeh device gulu ache seh gulu tehh dekabhe  */
+        color: darkviolet;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}

@@ -1,0 +1,142 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: darkcyan;
+}
+
+.menus-container {
+    display: flex;
+    list-style: none;
+    gap: 12px;
+}
+
+.navbarlogo {
+    width: 50px;
+}
+
+.banner-container {
+    display: flex;
+    
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.doctorpic {
+    width: 260px;
+}
+
+.title {
+    font-size: 76px;
+    font-weight: bold;
+    color: #008B8B;
+    text-align: center;
+}
+
+.description {
+    font-size: 22px;
+    font-style: italic;
+}
+
+button {
+    padding: 15px 25px;
+    border: none;
+    color: white;
+    font-size: 18px;
+
+}
+
+.apn-btn {
+    background-color: cadetblue;
+
+}
+
+.dct-btn {
+    background-color: crimson;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.service-card {
+
+    width: 300px;
+    height: 420px;
+    box-shadow: 8px 8px 16px gray;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.allergy-imgr {
+    width: 120px;
+}
+
+.diabetis-img {
+    width: 220px;
+    height: 235px;
+}
+
+.contact-container {
+    text-align: center;
+}
+
+.input-box {
+    padding: 15px 30px;
+    margin: 10px;
+
+}
+
+.text-area {
+    padding: 45px 50px;
+}
+
+.submit-btn {
+    color: aliceblue;
+    background-color: #5F9EA0;
+    margin: 15px;
+    padding: 10px 20px;
+    width: 35%;
+    font-size: 30px;
+    border: none;
+}
+
+.fotter-container {
+    padding: 10px 10px;
+    
+    color: aliceblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.fotter-1stdiv {
+    padding-top: 120px;
+    width: 200px;
+    text-align: center;
+}
+.footer-nextdiv{
+   
+    padding-top: 35px;
+}
+.fotter{
+    background-color: #008B8B;
+    
+}
+.hr{
+    padding-bottom: 100px;
+}
+

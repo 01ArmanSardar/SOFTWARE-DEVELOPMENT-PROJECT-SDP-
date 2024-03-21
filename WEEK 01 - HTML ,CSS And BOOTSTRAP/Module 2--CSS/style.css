@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,400&display=swap');
+ body {
+    background-color: honeydew;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+
+.title {
+    color:aliceblue;
+    background-color: linen;
+    font-size: 59px;
+    font-style: italic;
+    text-align: center;
+    background: linear-gradient(to top ,red,green) ;
+}
+
+.description {
+    color: darkviolet;
+    line-height: 1.9em;
+}
+
+#test {
+    color: cyan;
+}
+
+p {
+    color: darkkhaki;
+}

@@ -1,0 +1,12 @@
+.BoxModel {
+    width: 300px;
+    height: 300px;
+    /* border  left, right, top, bottom way teh oh korah jai */
+    border: 10px dotted gray;
+    /* pading left, right, top, bottom way teh oh korah jai */
+    padding: 30px;
+    /* margin oh left, right, top, bottom way teh oh korah jai  */
+    margin: 34px;
+    background-color: darkolivegreen;
+    box-shadow: 4px 5px 7px black;
+}

@@ -1,0 +1,130 @@
+
+
+.banner{
+    background-color: #18736D;
+}
+.navbar{
+    background-color: #CBF1EF;
+}
+.navbarLftSde{
+    list-style: none;
+}
+.bnrLftHdng{
+   color: aliceblue; 
+   font-weight:bold ;
+}
+.button{
+    background-color: #092D43;
+    color:aliceblue;
+    border: none;
+    padding:10px ;
+    border-radius: 5px;
+}
+.lawyername{
+    padding: 20px;
+    background-color: aqua;
+}
+.description{
+    background-color: #CBF1EF ;
+}
+.descrp1stdiv{
+    color: #18736D;
+    
+}
+.descrp1stdivP{
+    color:#643939 ;
+}
+.ReviewTxt{
+    margin-top: 20px;
+    text-align: center;
+    color: #4A4C4D;
+    font-weight: bold;
+}
+.Clntrvw{
+    background-color: #F2F7FF;
+}
+.clientReview{
+    display: flex;
+    justify-content: space-around;
+    background-color: #F2F7FF;
+}
+.review1
+{
+    
+    width: 430px;
+    height: 220px;
+    background-color: white;
+    box-shadow: 0px 0px 0px gray;
+    border-radius: 8px;
+    text-align: center;
+}
+.review2{
+    width: 430px;
+    height: 220px;
+    background-color: white;
+    box-shadow: 0px 0px 0px gray;
+    border-radius: 8px;
+    text-align: center;
+
+}
+.clientphoto{
+    display: flex;
+    justify-content: space-around;
+}
+.clientphoto1{
+    display: flex;
+}
+.Rabc{
+    margin-top: 15px;
+    margin-block-start: 20px;
+   
+}
+.Rimg{
+    width: 50px;
+    height: 60px;
+}
+.clntQstn{
+    background-color: #FFFFFF;
+}
+.qustion{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+   
+}
+.qustions{
+    text-align: center;
+    width: 490px;
+    margin-left:400px;
+    margin-top: 20px;
+}
+.call-Button
+{
+    width: 130px;
+    margin-left:600px;
+    margin-top: 20px;
+    border-radius: 7px;
+    color: white;
+    background-color: #094B72;
+    border-style: none;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+.footer{
+    background-color: #18736D;
+}
+.lawpng{
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+/* .icon{
+    margin-left: 20px;
+} */
+.col6-2nd{
+  color: white; 
+} 
+.copyright{
+    color: white;
+    font-size: small;
+    
+}

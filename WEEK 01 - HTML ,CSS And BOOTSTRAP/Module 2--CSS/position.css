@@ -1,0 +1,47 @@
+.box {
+    width: 200px;
+    height: 150px;
+    border: 1px solid black;
+    /* margin: 5px;  */
+    font-size: 30;
+    text-align: center;
+}
+.box1{
+    background-color:blue;
+    /*position:absolute; manhe box 1 div tah tar jaigha chere dicceh ar tar jagai box 2 chole asche ,tobhe box 1 tar jaigha chere dileh oh seh box 2 er upor vasah vasha obhostai veshe ache,ar amra nicer box tah dekteh holhe */
+    /* position:absolute; */
+    /* z-index: -1; korteh hobhe, box 2 tah dekteh pabho taholei  */
+    /* z-index: -1; */
+
+}
+.box2{
+    background-color: red;
+    /* box 1 z-index: -1; nah koreh amarah jodhi box 2 teh eseh box 2 er position: relative; koreh dei taholeo box 2 dekteh paboh  */
+    /* position: relative; */
+    /* kono aktah div er positon :fixed ; koreh dile oi div tah tar nijer jaigah tei takbhe joto niche uporei scroll korah hok nah keno */
+    position :fixed;
+}
+.box3{
+    background-color:green;
+}
+
+.green{
+    width: 450px ;
+    background-color: green;
+    height: 250px;
+    margin: 55px;
+    position: relative;
+}
+.red{
+    background-color: red;
+    height: 120px;
+    width: 120px;
+    /* kono aktah div keh circle korar jonno mulotoh border-radius use korah hoi */
+    border-radius:50% ;
+    position: absolute;
+    /* divs a jodhi amrah positon use kori tkhn amrha top left agulah use korteh parih */
+    top :30%;
+    left :32%;
+    
+    
+}

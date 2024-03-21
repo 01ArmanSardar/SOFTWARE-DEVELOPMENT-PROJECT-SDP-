@@ -1,0 +1,17 @@
+.parntdiv {
+    padding: 20;
+    background-color: bisque;
+    border: 3px solid lightskyblue;
+    /* cailei width keh % akarahe diteh parih  */
+    width: 50%; 
+    /* mergin auto korleh box tah majkhane cholec ashe  */
+    margin: auto;
+}
+.childdiv{
+    /* padding: 20px; */
+    background-color: blue;
+    /* child er width 50 % manhe ,jodhi parentdiv er pixel 200px hoi taholeh ,childdiv sekahn tekeh 50% manhe 100px nibhe */
+    width: 50% ;
+    /* box tar height jodhi puru window jureh dekteh chai tahole height:100vh; dithe hobhe,ai height dileh box tah full window cover korbhe  */
+    height:100vh;
+}
