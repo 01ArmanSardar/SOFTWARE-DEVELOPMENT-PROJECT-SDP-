@@ -1,1 +1,7 @@
-{ "status": true, "message": "successfully fetched all the categories", "data": [{ "category_id": "1000", "category": "All" }, { "category_id": "1001", "category": "Music" }, { "category_id": "1003", "category": "Comedy" }, { "category_id": "1005", "category": "Drawing" }] }
+const loadAllData=()=>{
+
+    fetch("https://openapi.programming-hero.com/api/videos/category/1000")
+    .then((res)=>res.json())
+    .then((data)=>console.log(data[0]))
+    .then((err)=>console.log(err))
+}
