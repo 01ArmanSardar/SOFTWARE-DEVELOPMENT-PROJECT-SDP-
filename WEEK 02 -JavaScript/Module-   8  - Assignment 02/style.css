@@ -5,3 +5,34 @@
     border: none;
     
 }
+.box1-img{
+    width: 100%;
+    padding: 5px;
+    height: 50%;
+    margin-left: 110px;
+}
+.author-photo1{
+    width: 70%;
+    border-radius: 50%;
+   
+}
+/* .card-title1{
+    
+}
+.detailcard1{
+    margin-left: 110px;
+} */
+.card-details1{
+    border: 1px solid gray;
+       
+}
+.img_border1{
+    width: 50px;
+    border: 1px solid black;  
+}
+.detailscard1{
+    
+}
+
+
+
