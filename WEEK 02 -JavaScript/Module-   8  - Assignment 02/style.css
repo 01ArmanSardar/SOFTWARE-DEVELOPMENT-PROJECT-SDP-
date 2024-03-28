@@ -5,6 +5,23 @@
     border: none;
     
 }
+.Catagory{
+    padding: 30px;
+}
+.all{
+    border-radius: 5px;
+}
+.music{
+    border-radius: 5px;
+}
+.comedy {
+    border-radius: 5px;
+}
+.drwaing {
+    border-radius: 5px;
+}
+
+/* All */
 .box1-img{
     width: 100%;
     padding: 5px;
@@ -22,17 +39,113 @@
 .detailcard1{
     margin-left: 110px;
 } */
-.card-details1{
+/* .card-details1{
     border: 1px solid gray;
        
-}
+} */
 .img_border1{
     width: 50px;
-    border: 1px solid black;  
+    /* border: 1px solid black;   */
 }
 .detailscard1{
+    padding-left: 100px;
+}
+button{
+    border: none;
     
+
 }
 
 
 
+/* Music */
+.box2-img{
+    width: 100%;
+    padding: 5px;
+    height: 50%;
+    margin-left: 110px;
+}
+.author-photo2{
+    width: 70%;
+    border-radius: 50%;
+   
+}
+/* .card-title1{
+    
+}
+.detailcard1{
+    margin-left: 110px;
+} */
+/* .card-details2{
+    border: 1px solid gray;
+       
+} */
+.img_border2{
+    width: 50px;
+    /* border: 1px solid black;   */
+}
+.detailscard2{
+    padding-left: 100px;
+}
+
+/* Comedy */
+
+.box3-img{
+    width: 100%;
+    padding: 5px;
+    height: 50%;
+    margin-left: 110px;
+}
+.author-photo3{
+    width: 70%;
+    border-radius: 50%;
+   
+}
+/* .card-title1{
+    
+}
+.detailcard1{
+    margin-left: 110px;
+} */
+/* .card-details3{
+    border: 1px solid gray;
+       
+} */
+.img_border3{
+    width: 50px;
+    /* border: 1px solid black;   */
+}
+.detailscard3{
+    padding-left: 100px;
+}
+
+/* sort by view */
+
+.box5-img{
+    width: 100%;
+    padding: 5px;
+    height: 50%;
+    margin-left: 110px;
+}
+.author-photo5{
+    width: 70%;
+    border-radius: 50%;
+   
+}
+/* .card-title1{
+    
+}
+.detailcard1{
+    margin-left: 110px;
+} */
+/* .card-details3{
+    border: 1px solid gray;
+       
+} */
+.img_border5{
+    width: 50px;
+    /* border: 1px solid black;   */
+}
+.detailscard5{
+    padding-left: 100px;
+}
