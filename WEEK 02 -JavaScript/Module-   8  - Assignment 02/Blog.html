@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        body {
+            background-color: #111221;
+        }
+
+        .accordion {
+            width: 50%;
+            padding-top: 70px;
+            padding-left: 100px;
+            margin-left: 20%;
+            margin-top: 13%;
+
+        }
+        .accordion-item{
+            background-color:#111221;
+            color: white;
+        }
+        strong
+        {
+            color: #3989AE;
+        }
+       .accordion-button{
+        background-color: #151526;
+        color: white;
+        font-weight: bold;
+       }
+
+       a {
+            background-color:#151526;
+            color: white;
+            padding: 5px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            border-radius: 8px;
+            /* width: 50px; */
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                    aria-expanded="true" aria-controls="collapseOne">
+                    Discuss the scope of var, let, and const !
+                </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <h2>var</h2>
+                    <li> <strong>Scope of Var: </strong></li>
+                    Scope basically refers to the area in which these variables can be used. Var declarations can be
+                    function/locally or globally scoped. <br>
+                    <strong>Hoisting of var: </strong>
+                    Before code is executed, variables and function declarations are hoisted to the top of their scope
+                    in JavaScript.
+
+                    <br> <br> <br>
+                    <h2>let</h2>
+                    <li> <strong>Scope of let: </strong></li>
+                    A block is a section of code that is bounded by. Curly braces house a block. A block is anything
+                    contained in curly brackets. <br>
+                    <strong>Hoisting of let: </strong>
+                    Why is there not a mistake? This is so that the different scopes of the two instances can be
+                    regarded as separate variables.
+                    Let is a superior option to var due to this feature. If you've used a name for a variable
+                    before,
+                    you don't need to worry while using let because a variable only exists within its scope.
+
+                    <br> <br>
+                    <h2>cons</h2>
+                    <li><strong>Scope of const: </strong></li>
+                    Constant values are kept for variables specified using the const keyword. Let declarations and
+                    const
+                    declarations have some similarities.
+                    The scope of const declarations is blocked.
+                    Const declarations, like let declarations are only accessible within the block in which they
+                    were
+                    made.
+                    It is impossible to modify or re-declare const. <br>
+                    <strong>Hoisting of const: </strong>
+                    Const declarations are raised to the top, similar to let, but they are not initialized.
+
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Tell us the use cases of null and undefined !
+
+                </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <li> <strong>use cases of null and undefined :</strong> </li>  In JavaScript, null and undefined are two
+                    distinct
+                    types that represent different values. By definition, undefined means a variable has been declared
+                    but has not yet been assigned a value, whereas null is an assignment value, meaning that a variable
+                    has been declared and given the value of null .
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    What do you mean by REST API ?
+                </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                 <li>  <strong>Rest API:</strong> </li> A REST API (also called a RESTful API or RESTful web API) is an application programming interface (API) that conforms to the design principles of the representational state transfer (REST) architectural style.
+                </div>
+            </div>
+        </div>
+        <p style="text-align: center; color: white; margin-top: 15px;" > <a href="./index.html">back to home</a></p>
+    </div>
+
+    <!-- Scipt file is here -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -9,7 +9,7 @@ const loadAllData = () => {
 const DisplayAllData = (alldata) => {
     const AllContainer = document.getElementById("All_Container");
     alldata.forEach((Data1) => {
-        console.log(Data1);
+        console.log(Data1.others.posted_date);
         const card1 = document.createElement("div");
         card1.classList.add("box1");
         card1.className = "col-lg-3 ";
@@ -55,7 +55,7 @@ const DisplayMusicData = (Musicdata) => {
                 </div>
                 <div class="card-details2 text-lg-left">
                     <h6 class="card-title2 text-left">${Data2.title}</h6>
-                    <p class="author-name2">${Data2.authors[0].profile_name} </p>
+                    <p class="author-name2">${Data2.authors[0].profile_name} ${Data2.authors[0].verified == true ? `<i id="verified_icon" class="text-primary bi bi-patch-check-fill"></i>` : ""} </p>
                     <p class="views2">${Data2.others.views} views</p>
                 </div>
         </div>
@@ -88,7 +88,7 @@ const DisplayComedyData = (Comedydata) => {
                 </div>
                 <div class="card-details3 text-lg-left">
                     <h6 class="card-title3 text-left">${Data3.title}</h6>
-                    <p class="author-name3">${Data3.authors[0].profile_name} </p>
+                    <p class="author-name3">${Data3.authors[0].profile_name} ${Data3.authors[0].verified == true ? `<i id="verified_icon" class="text-primary bi bi-patch-check-fill"></i>` : ""} </p>
                     <p class="views3">${Data3.others.views} views</p>
                 </div>
         </div>
@@ -123,22 +123,26 @@ const loadSortByView = () => {
     // const allCatagory=document.getElementById("All").innerText
     fetch(`https://openapi.programming-hero.com/api/videos/category/1000`)
         .then((res) => res.json())
-        .then((Data5) => DisplaySortByView(Data5.data))
+        // .then((Data5) => DisplaySortByView(Data5.data))
         .then((err) => console.log(err))
 }
+
 
 const DisplaySortByView = (SortByViewdata) => {
     const sortContainer = document.getElementById("sort_Container");
     SortByViewdata.forEach((Data5) => {
-        // console.log(Data5);
+        console.log(Data5);
         // console.log("....");
         // console.log(Data5.others.views.tosorted());
+       const views1= parseFloat(Data5.others.views)
+       console.log(sortby(Data5.others.views1));
+        
         const card5 = document.createElement("div");
         card5.classList.add("box5");
         card5.className = "col-lg-3";
         card5.innerHTML =
             `
-        <img class="box3-img" src=${Data5.thumbnail}alt="">
+        <img class="box3-img" src=${Data5.thumbnail}alt="" >
         <div class="detailscard5 d-flex ">
                 <div class="img_border5 text-end">
                     <img src="${Data5.authors[0].profile_picture}" alt="" class="author-photo5 ">
@@ -149,7 +153,6 @@ const DisplaySortByView = (SortByViewdata) => {
                     <p class="views5">${Data5.others.views} views</p>
                 </div>
         </div>
-        
         `;
         sortContainer.appendChild(card5);
     });
